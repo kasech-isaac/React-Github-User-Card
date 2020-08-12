@@ -75,7 +75,7 @@ class App extends React.Component{
   {this.state.followers.map((followers)=>{
     return (
       <div> 
-<img width="200"  src={this.state.users.avatar_url} />
+<img width="200"  src={followers.avatar_url} />
     <h2>{followers.login}</h2>
       </div>
       )
